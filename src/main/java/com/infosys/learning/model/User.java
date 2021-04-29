@@ -1,5 +1,7 @@
 package com.infosys.learning.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import javax.persistence.*;
 
 @Entity
