@@ -18,7 +18,7 @@ public class LearningService {
         return person.getName();
     }
 
-    public Person getPerson(String gender) {
+    public Person getNameV2(String gender) {
         Person person = new Person();
 
         if("man".equals(gender)) {
@@ -28,5 +28,17 @@ public class LearningService {
         }
 
         return person;
+    }
+
+    public String getNameV3(String name) {
+        String fullname = "not identified";
+
+        if ("John".equals(name)) {
+            fullname = "John Doe";
+        } else if ("Jane".equals(name)) {
+            fullname = "Jane Doe";
+        }
+
+        return fullname;
     }
 }
