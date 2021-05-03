@@ -51,7 +51,7 @@ public class LearningService {
         Data data = new Data();
         int dateNow = LocalDate.now().getYear();
 
-        person.setName("John");
+        person.setName(name);
         data.setAge(dateNow-yearOfBirth);
         person.setData(data);
 
