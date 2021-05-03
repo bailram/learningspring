@@ -57,10 +57,4 @@ public class LearningService {
 
         return person;
     }
-
-
-//    public Person getPerson(String name, int yearOfBirth) {
-//        Person person = new Person(name, yearOfBirth);
-//        return person;
-//    }
 }
